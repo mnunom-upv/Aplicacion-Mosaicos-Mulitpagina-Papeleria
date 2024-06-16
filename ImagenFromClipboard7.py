@@ -1,4 +1,5 @@
 """
+Modificacion hecha el dia del padre
 Permite copiar de "Memoria" las imagenes, las guarda en la carpeta "HOME"
 La idea es integarla con el programa "AComodar N imagenes en Hoja Carta" para completar el formateador de imagenes
 """
