@@ -2,6 +2,8 @@
 
 @echo off
 setlocal
+:: esto es un comentario 
+:: pinche desmadre de codigo para obtener la fechahora y ponerlo en una variable de nombre _date
 rem use findstr to strip blank lines from wmic output
 for /f "usebackq skip=1 tokens=1-6" %%g in (`wmic Path Win32_LocalTime Get Day^,Hour^,Minute^,Month^,Second^,Year ^| findstr /r /v "^$"`) do (
   set _day=00%%g
